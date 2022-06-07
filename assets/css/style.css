@@ -1,0 +1,121 @@
+/* fonts */
+
+@font-face {
+    font-family: HiraMaruPro-W4;
+    src: url(../fonts/HiraMaruPro-W4.otf);
+}
+
+@font-face {
+    font-family: kozgopr6n-bold;
+    src: url(../fonts/kozgopr6n-bold-opentype_bigfontsite.com.otf);
+}
+
+.Kozo-font {
+    font-family: kozgopr6n-bold;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-family: HiraMaruPro-W4;
+    color: black;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+@media(max-width: 768px) {
+    .font-sm-15 {
+        font-size: 15px;
+    }
+    .font-sm-14 {
+        font-size: 14px;
+    }
+}
+
+
+/* fonts */
+
+
+/* background and color */
+
+.bg-blue-dark {
+    background-color: #48AFF6;
+}
+
+.text-white-light {
+    color: #fefefe;
+}
+
+.text-red {
+    color: red;
+}
+
+
+/* background and color */
+
+
+/* layout */
+
+.pc {
+    display: block !important;
+}
+
+.sp {
+    display: none !important;
+}
+
+@media(max-width: 768px) {
+    .pc {
+        display: none !important;
+    }
+    .sp {
+        display: block !important;
+    }
+}
+
+
+/* layout */
+
+
+/* image */
+
+img {
+    max-width: 100%;
+}
+
+
+/* image */
+
+.mv-wrap {
+    height: 372px;
+}
+
+.mv-wrap img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.summary-wrap {
+    background: url(../images/bg-01.png);
+    background-size: 100%;
+}
+
+@media(max-width: 1200px) {
+    .mv-wrap {
+        height: 240px;
+    }
+}
+
+@media(max-width:768px) {
+    .mv-wrap {
+        height: auto;
+    }
+}
