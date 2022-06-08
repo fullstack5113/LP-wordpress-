@@ -25,13 +25,40 @@ h6 {
     margin-bottom: 0;
     font-family: HiraMaruPro-W4;
     color: black;
+    line-height: 1.6;
+}
+
+.font-15 {
+    font-size: 15px;
 }
 
 .font-16 {
     font-size: 16px;
 }
 
+.font-18 {
+    font-size: 18px;
+}
+
+.font-22 {
+    font-size: 22px;
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+.font-30 {
+    font-size: 30px;
+}
+
 @media(max-width: 768px) {
+    .font-sm-20 {
+        font-size: 20px;
+    }
+    .font-sm-16 {
+        font-size: 16px;
+    }
     .font-sm-15 {
         font-size: 15px;
     }
@@ -56,6 +83,10 @@ h6 {
 
 .text-red {
     color: red;
+}
+
+.text-blue {
+    color: #0075C1;
 }
 
 
@@ -108,14 +139,151 @@ img {
     background-size: 100%;
 }
 
+.title-wrap {
+    position: relative;
+    height: 127px;
+}
+
+.title-wrap::after {
+    content: url(../images/triangle_down.png);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 100%);
+}
+
+.title-wrap img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.title-wrap-character::before {
+    content: url(../images/charcter_girl.png);
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    margin-left: 320px;
+}
+
+.blue-left {
+    position: relative;
+    padding-left: 17px;
+}
+
+.blue-left::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 30px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #0075C1;
+}
+
+.sub-title-wrap {
+    position: relative;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-title-wrap::before {
+    content: "";
+    position: absolute;
+    left: 30px;
+    top: 0;
+    background-color: black;
+    width: 1px;
+    height: 50px;
+    transform: rotate(335deg);
+}
+
+.sub-title-wrap::after {
+    content: "";
+    position: absolute;
+    right: 30px;
+    top: 0;
+    background-color: black;
+    width: 1px;
+    height: 50px;
+    transform: rotate(25deg);
+}
+
+.btn__inner {
+    background: url(../images/btn_bg.png) no-repeat;
+    background-size: 100% 100%;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 12px 0 14.5px 0;
+    font-weight: 500;
+}
+
 @media(max-width: 1200px) {
     .mv-wrap {
         height: 240px;
+    }
+    .title-wrap {
+        height: 90px;
+    }
+    .title-wrap-character::before {
+        margin-left: 230px;
+        bottom: 0px;
     }
 }
 
 @media(max-width:768px) {
     .mv-wrap {
         height: auto;
+    }
+    .title-wrap {
+        height: auto;
+    }
+    .title-wrap-character::before {
+        content: "";
+        background-image: url(../images/charcter_girl_sp.png);
+        background-repeat: no-repeat;
+        background-size: 25vw auto;
+        width: 25vw;
+        height: 100%;
+        position: absolute;
+        bottom: 6px;
+        left: 50%;
+        margin-left: 18vw;
+    }
+    .title-wrap::after {
+        content: "";
+        background-image: url(../images/triangle_down.png);
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        background-size: 18px 17px;
+        width: 18px;
+        height: 17px;
+        transform: translate(-50%, 100%);
+    }
+    .blue-left {
+        position: relative;
+        padding-left: 9px;
+    }
+    .blue-left::before {
+        content: "";
+        position: absolute;
+        width: 5px;
+        height: 17.5px;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: #0075C1;
+    }
+    .btn__inner {
+        background: url(../images/btn_bg_sp.png) no-repeat;
+        background-size: 100% 100%;
     }
 }

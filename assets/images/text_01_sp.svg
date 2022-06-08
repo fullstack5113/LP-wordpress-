@@ -1,0 +1,32 @@
+<svg id="メール" xmlns="http://www.w3.org/2000/svg" width="277.031" height="123" viewBox="0 0 277.031 123">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #dad9d8;
+      }
+
+      .cls-1, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-4 {
+        font-size: 20.617px;
+        font-family: HiraMaruPro-W4, "Hiragino Maru Gothic Pro";
+      }
+
+      .cls-3 {
+        fill: #fff;
+        stroke: #dad9d8;
+        stroke-width: 2px;
+      }
+
+      .cls-4 {
+        fill: #fd3435;
+      }
+    </style>
+  </defs>
+  <path id="長方形_1153" data-name="長方形 1153" class="cls-1" d="M101.031,5102H375.993v61.72H101.031V5102Z" transform="translate(-100 -5102)"/>
+  <text id="メール-2" data-name="メール" class="cls-2" transform="translate(98.326 41.019) scale(1.261)">メール</text>
+  <path id="長方形_1153_のコピー" data-name="長方形 1153 のコピー" class="cls-3" d="M101.014,5162.27H376.028v61.72H101.014v-61.72Z" transform="translate(-100 -5102)"/>
+  <text id="必須" class="cls-4" transform="translate(112.009 101.757) scale(1.261)">必須</text>
+</svg>

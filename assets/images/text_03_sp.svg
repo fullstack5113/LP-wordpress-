@@ -1,0 +1,33 @@
+<svg id="電話" xmlns="http://www.w3.org/2000/svg" width="277" height="122.97" viewBox="0 0 277 122.97">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #dad9d8;
+      }
+
+      .cls-1, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-4 {
+        font-size: 20.617px;
+        text-anchor: middle;
+        font-family: HiraMaruPro-W4, "Hiragino Maru Gothic Pro";
+      }
+
+      .cls-3 {
+        fill: #fff;
+        stroke: #dad9d8;
+        stroke-width: 2px;
+      }
+
+      .cls-4 {
+        fill: #fd3435;
+      }
+    </style>
+  </defs>
+  <path id="長方形_1153" data-name="長方形 1153" class="cls-1" d="M379.016,7750.99H653.977v61.72H379.016v-61.72Z" transform="translate(-378 -7751)"/>
+  <text id="電話-2" data-name="電話" class="cls-2" transform="translate(138.374 41.195) scale(1.261)">電話</text>
+  <path id="長方形_1153_のコピー" data-name="長方形 1153 のコピー" class="cls-3" d="M379,7811.26H654.009v61.72H379v-61.72Z" transform="translate(-378 -7751)"/>
+  <text id="必須" class="cls-4" transform="translate(139.184 101.761) scale(1.261)">必須</text>
+</svg>
