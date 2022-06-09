@@ -1,28 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>LP</title>
-</head>
-
-<body>
-    <header class="bg-blue-dark">
-        <div class="d-flex container align-items-center justify-content-md-start justify-content-center">
-            <p class="text-white-light Kozo-font py-2 font-16 font-sm-15">引越し見積 NAVI</p>
-        </div>
-    </header>
+<?php get_header();?>
 
     <main>
         <section class="mv-wrap">
-            <img class="pc" src="./assets/images/KV_pc.png" alt="">
-            <img class="sp" src="./assets/images/KV_sp.png" alt="">
+            <img class="pc" src="<?php echo get_template_directory_uri()?>/assets/images/KV_pc.png" alt="">
+            <img class="sp" src="<?php echo get_template_directory_uri()?>/assets/images/KV_sp.png" alt="">
         </section>
+
         <section class="summary-wrap py-4">
             <p class="text-md-center font-16 font-sm-14 container">
                 引越し費用を安く済ませるために生まれた引越し一括見積りですが、<br> 最近では電話が多いと言ったネガティブな口コミをよく見かけたりします。
@@ -35,8 +18,8 @@
 
         <section>
             <div class="title-wrap title-wrap-character">
-                <img class="pc" src="./assets/images/title_01.png" alt="">
-                <img class="sp" src="./assets/images/title_01_sp.png" alt="">
+                <img class="pc" src="<?php echo get_template_directory_uri()?>/assets/images/title_01.png" alt="">
+                <img class="sp" src="<?php echo get_template_directory_uri()?>/assets/images/title_01_sp.png" alt="">
             </div>
             <p class="font-16 font-sm-14 text-md-center py-md-5 py-4 container">
                 まず始めに、こう言うと身も蓋もないのですが、引越し一括見積りは重要ではあるものの、<br> どこの引越し一括見積が良いかと言われると、どこも大きく差はありません…
@@ -50,7 +33,7 @@
             <div class="container pb-4">
                 <div class="row">
                     <div class="col-lg-4">
-                        <img src="./assets/images/image_01.png" alt="">
+                        <img src="<?php echo get_template_directory_uri()?>/assets/images/image_01.png" alt="">
                     </div>
                     <div class="col-lg-8">
                         <div class="pt-lg-0 pt-3">
@@ -71,8 +54,8 @@
 
         <section>
             <div class="title-wrap">
-                <img class="pc" src="./assets/images/title_02.png" alt="">
-                <img class="sp" src="./assets/images/title_02_sp.png" alt="">
+                <img class="pc" src="<?php echo get_template_directory_uri()?>/assets/images/title_02.png" alt="">
+                <img class="sp" src="<?php echo get_template_directory_uri()?>/assets/images/title_02_sp.png" alt="">
             </div>
             <div class="summary-wrap py-md-5 py-4">
                 <div class="container text-md-center">
@@ -80,8 +63,8 @@
                         では、上記で紹介したポイントを踏まえて、おすすめの一括見積りのサービスを選ぶとすると、当サイトでおすすめのサービスは下記の3社。
                     </p>
                     <div class="text-center py-3">
-                        <img class="pc mx-auto" src="./assets/images/image_02.png" alt="">
-                        <img class="sp mx-auto" src="./assets/images/image_02_sp.png" alt="">
+                        <img class="pc mx-auto" src="<?php echo get_template_directory_uri()?>/assets/images/image_02.png" alt="">
+                        <img class="sp mx-auto" src="<?php echo get_template_directory_uri()?>/assets/images/image_02_sp.png" alt="">
                     </div>
                     <p class="font-16 font-sm-14">
                         メールのやり取りで気軽に頼んでみたい、かかってくる電話の数を調整したいということであれば、SUUMO引越しがおすすめです。<br> 電話が多くても少しでも費用を下げたいという場合は、引越し侍がおすすめです。
@@ -97,19 +80,19 @@
                         <p class="font-22 font-sm-16 pt-3">連絡の頻度、業者の選択など利便性は抜群！気軽に使うならSUUMO。</p>
                         <div class="row">
                             <div class="col-md-5 mt-md-4 mt-3">
-                                <img class="pc" src="./assets/images/image_03.png" alt="">
-                                <img class="sp" src="./assets/images/image_03_sp.png" alt="">
+                                <img class="pc" src="<?php echo get_template_directory_uri()?>/assets/images/image_03.png" alt="">
+                                <img class="sp" src="<?php echo get_template_directory_uri()?>/assets/images/image_03_sp.png" alt="">
                             </div>
                             <div class="col-md-7 mt-3">
                                 <p class="font-22 font-sm-16 text-blue blue-left">連絡手段</p>
                                 <div class="row mt-2">
                                     <div class="col-6 pr-md-2 pr-1">
-                                        <img class="pc" src="./assets/images/text_01.svg" alt="">
-                                        <img class="sp pl-3" src="./assets/images/text_01_sp.svg" alt="">
+                                        <img class="pc" src="<?php echo get_template_directory_uri()?>/assets/images/text_01.svg" alt="">
+                                        <img class="sp pl-3" src="<?php echo get_template_directory_uri()?>/assets/images/text_01_sp.svg" alt="">
                                     </div>
                                     <div class="col-6 pl-md-2 pl-1">
-                                        <img class="pc" src="./assets/images/text_02.svg" alt="">
-                                        <img class="sp pr-3" src="./assets/images/text_02_sp.svg" alt="">
+                                        <img class="pc" src="<?php echo get_template_directory_uri()?>/assets/images/text_02.svg" alt="">
+                                        <img class="sp pr-3" src="<?php echo get_template_directory_uri()?>/assets/images/text_02_sp.svg" alt="">
                                     </div>
                                 </div>
                                 <p class="font-22 font-sm-16 text-blue blue-left mt-md-4 mt-3">見積業者の選択</p>
@@ -117,12 +100,12 @@
                             </div>
                         </div>
                         <div class="mt-md-4 mt-3">
-                            <img class="pc" src="./assets/images/image_04.png" alt="">
-                            <img class="sp" src="./assets/images/image_04_sp.png" alt="">
+                            <img class="pc" src="<?php echo get_template_directory_uri()?>/assets/images/image_04.png" alt="">
+                            <img class="sp" src="<?php echo get_template_directory_uri()?>/assets/images/image_04_sp.png" alt="">
                         </div>
                         <div class="mt-3">
-                            <img class="pc" src="./assets/images/image_05.png" alt="">
-                            <img class="sp" src="./assets/images/image_05_sp.png" alt="">
+                            <img class="pc" src="<?php echo get_template_directory_uri()?>/assets/images/image_05.png" alt="">
+                            <img class="sp" src="<?php echo get_template_directory_uri()?>/assets/images/image_05_sp.png" alt="">
                         </div>
                         <p class="font-22 font-sm-16 text-blue blue-left mt-md-4 mt-3">使用する際の注意点</p>
                         <p class="font-16 font-sm-14 mt-2">メール連絡のみにすると、複数の業者とメールでのやり取りしないといけないので、メールのやり取りが途中で面倒になってきます。<br> 適度なタイミングで電話に移行するのがベストです。
@@ -136,19 +119,19 @@
                         <p class="font-22 font-sm-16 pt-3">沢山の業者の見積をとりたいなら引越し侍！老舗で安心感も〇</p>
                         <div class="row">
                             <div class="col-md-5 mt-md-4 mt-3">
-                                <img class="pc" src="./assets/images/image_06.png" alt="">
-                                <img class="sp" src="./assets/images/image_06_sp.png" alt="">
+                                <img class="pc" src="<?php echo get_template_directory_uri()?>/assets/images/image_06.png" alt="">
+                                <img class="sp" src="<?php echo get_template_directory_uri()?>/assets/images/image_06_sp.png" alt="">
                             </div>
                             <div class="col-md-7 mt-3">
                                 <p class="font-22 font-sm-16 text-blue blue-left">連絡手段</p>
                                 <div class="row mt-2">
                                     <div class="col-6 pr-md-2 pr-1">
-                                        <img class="pc" src="./assets/images/text_01.svg" alt="">
-                                        <img class="sp pl-3" src="./assets/images/text_01_sp.svg" alt="">
+                                        <img class="pc" src="<?php echo get_template_directory_uri()?>/assets/images/text_01.svg" alt="">
+                                        <img class="sp pl-3" src="<?php echo get_template_directory_uri()?>/assets/images/text_01_sp.svg" alt="">
                                     </div>
                                     <div class="col-6 pl-md-2 pl-1">
-                                        <img class="pc" src="./assets/images/text_03.svg" alt="">
-                                        <img class="sp pr-3" src="./assets/images/text_03_sp.svg" alt="">
+                                        <img class="pc" src="<?php echo get_template_directory_uri()?>/assets/images/text_03.svg" alt="">
+                                        <img class="sp pr-3" src="<?php echo get_template_directory_uri()?>/assets/images/text_03_sp.svg" alt="">
                                     </div>
                                 </div>
                                 <p class="font-22 font-sm-16 text-blue blue-left mt-md-4 mt-3">見積業者の選択</p>
@@ -156,12 +139,12 @@
                             </div>
                         </div>
                         <div class="mt-md-4 mt-3">
-                            <img class="pc" src="./assets/images/image_07.png" alt="">
-                            <img class="sp" src="./assets/images/image_07_sp.png" alt="">
+                            <img class="pc" src="<?php echo get_template_directory_uri()?>/assets/images/image_07.png" alt="">
+                            <img class="sp" src="<?php echo get_template_directory_uri()?>/assets/images/image_07_sp.png" alt="">
                         </div>
                         <div class="mt-3">
-                            <img class="pc" src="./assets/images/image_08.png" alt="">
-                            <img class="sp" src="./assets/images/image_08_sp.png" alt="">
+                            <img class="pc" src="<?php echo get_template_directory_uri()?>/assets/images/image_08.png" alt="">
+                            <img class="sp" src="<?php echo get_template_directory_uri()?>/assets/images/image_08_sp.png" alt="">
                         </div>
                         <p class="font-22 font-sm-16 text-blue blue-left mt-md-4 mt-3">使用する際の注意点</p>
                         <p class="font-16 font-sm-14 mt-2">見積の業者が最大10社となっており、つまり最大で10社から電話がかかってくる可能性があります。</p>
@@ -174,19 +157,19 @@
                         <p class="font-22 font-sm-16 pt-3">単身者の引越しなら赤帽対応のDOORがおすすめ！</p>
                         <div class="row">
                             <div class="col-md-5 mt-md-4 mt-3">
-                                <img class="pc" src="./assets/images/image_09.png" alt="">
-                                <img class="sp" src="./assets/images/image_09_sp.png" alt="">
+                                <img class="pc" src="<?php echo get_template_directory_uri()?>/assets/images/image_09.png" alt="">
+                                <img class="sp" src="<?php echo get_template_directory_uri()?>/assets/images/image_09_sp.png" alt="">
                             </div>
                             <div class="col-md-7 mt-3">
                                 <p class="font-22 font-sm-16 text-blue blue-left">連絡手段</p>
                                 <div class="row mt-2">
                                     <div class="col-6 pr-md-2 pr-1">
-                                        <img class="pc" src="./assets/images/text_01.svg" alt="">
-                                        <img class="sp pl-3" src="./assets/images/text_01_sp.svg" alt="">
+                                        <img class="pc" src="<?php echo get_template_directory_uri()?>/assets/images/text_01.svg" alt="">
+                                        <img class="sp pl-3" src="<?php echo get_template_directory_uri()?>/assets/images/text_01_sp.svg" alt="">
                                     </div>
                                     <div class="col-6 pl-md-2 pl-1">
-                                        <img class="pc" src="./assets/images/text_03.svg" alt="">
-                                        <img class="sp pr-3" src="./assets/images/text_03_sp.svg" alt="">
+                                        <img class="pc" src="<?php echo get_template_directory_uri()?>/assets/images/text_03.svg" alt="">
+                                        <img class="sp pr-3" src="<?php echo get_template_directory_uri()?>/assets/images/text_03_sp.svg" alt="">
                                     </div>
                                 </div>
                                 <p class="font-22 font-sm-16 text-blue blue-left mt-md-4 mt-3">見積業者の選択</p>
@@ -194,12 +177,12 @@
                             </div>
                         </div>
                         <div class="mt-md-4 mt-3">
-                            <img class="pc" src="./assets/images/image_10.png" alt="">
-                            <img class="sp" src="./assets/images/image_10_sp.png" alt="">
+                            <img class="pc" src="<?php echo get_template_directory_uri()?>/assets/images/image_10.png" alt="">
+                            <img class="sp" src="<?php echo get_template_directory_uri()?>/assets/images/image_10_sp.png" alt="">
                         </div>
                         <div class="mt-3">
-                            <img class="pc" src="./assets/images/image_11.png" alt="">
-                            <img class="sp" src="./assets/images/image_11_sp.png" alt="">
+                            <img class="pc" src="<?php echo get_template_directory_uri()?>/assets/images/image_11.png" alt="">
+                            <img class="sp" src="<?php echo get_template_directory_uri()?>/assets/images/image_11_sp.png" alt="">
                         </div>
                         <p class="font-22 font-sm-16 text-blue blue-left mt-md-4 mt-3">使用する際の注意点</p>
                         <p class="font-16 font-sm-14 mt-2">見積の業者が最大10社となっており、つまり最大で10社から電話がかかってくる可能性があります。</p>
@@ -211,8 +194,8 @@
 
         <section class="mt-md-4 mt-3">
             <div class="title-wrap title-wrap-character">
-                <img class="pc" src="./assets/images/title_03.png" alt="">
-                <img class="sp" src="./assets/images/title_03_sp.png" alt="">
+                <img class="pc" src="<?php echo get_template_directory_uri()?>/assets/images/title_03.png" alt="">
+                <img class="sp" src="<?php echo get_template_directory_uri()?>/assets/images/title_03_sp.png" alt="">
             </div>
             <div class="py-md-5 py-4 container">
                 <p class="font-16 font-sm-14 text-md-center text-left">
@@ -220,8 +203,8 @@
                 </p>
                 <div class="row align-items-center pt-md-3">
                     <div class="col-md-5 pt-3">
-                        <img class="pc" src="./assets/images/image_12.png" alt="">
-                        <img class="sp" src="./assets/images/image_12_sp.png" alt="">
+                        <img class="pc" src="<?php echo get_template_directory_uri()?>/assets/images/image_12.png" alt="">
+                        <img class="sp" src="<?php echo get_template_directory_uri()?>/assets/images/image_12_sp.png" alt="">
                     </div>
                     <div class="col-md-7 pt-3">
                         <p class="font-16 font-sm-14">
@@ -231,8 +214,8 @@
                 </div>
                 <div class="row align-items-center">
                     <div class="col-md-5 pt-3">
-                        <img class="pc" src="./assets/images/image_13.png" alt="">
-                        <img class="sp" src="./assets/images/image_13_sp.png" alt="">
+                        <img class="pc" src="<?php echo get_template_directory_uri()?>/assets/images/image_13.png" alt="">
+                        <img class="sp" src="<?php echo get_template_directory_uri()?>/assets/images/image_13_sp.png" alt="">
                     </div>
                     <div class="col-md-7 pt-3">
                         <p class="font-16 font-sm-14">
@@ -248,8 +231,8 @@
 
         <section>
             <div class="title-wrap title-wrap-character">
-                <img class="pc" src="./assets/images/title_04.png" alt="">
-                <img class="sp" src="./assets/images/title_04_sp.png" alt="">
+                <img class="pc" src="<?php echo get_template_directory_uri()?>/assets/images/title_04.png" alt="">
+                <img class="sp" src="<?php echo get_template_directory_uri()?>/assets/images/title_04_sp.png" alt="">
             </div>
             <div class="summary-wrap py-md-5 py-4 ">
                 <div class="container">
@@ -264,8 +247,8 @@
                                 電話不要、メールだけで完結できる<br> 一括見積りはこちら！
                             </p>
                             <div class="mt-4">
-                                <img class="pc" src="./assets/images/image_03.png" alt="">
-                                <img class="sp" src="./assets/images/image_03_sp.png" alt="">
+                                <img class="pc" src="<?php echo get_template_directory_uri()?>/assets/images/image_03.png" alt="">
+                                <img class="sp" src="<?php echo get_template_directory_uri()?>/assets/images/image_03_sp.png" alt="">
                             </div>
                             <button class="btn__inner mt-3">SUUMO引越し　公式サイト</button>
                         </div>
@@ -274,8 +257,8 @@
                                 最安値を狙う電話見積ならこちら！
                             </p>
                             <div class="mt-4">
-                                <img class="pc" src="./assets/images/image_06.png" alt="">
-                                <img class="sp" src="./assets/images/image_06_sp.png" alt="">
+                                <img class="pc" src="<?php echo get_template_directory_uri()?>/assets/images/image_06.png" alt="">
+                                <img class="sp" src="<?php echo get_template_directory_uri()?>/assets/images/image_06_sp.png" alt="">
                             </div>
                             <button class="btn__inner mt-3">引越し侍　公式サイト</button>
                         </div>
@@ -284,8 +267,8 @@
                                 単身見積りならこちら！
                             </p>
                             <div class="mt-4">
-                                <img class="pc" src="./assets/images/image_09.png" alt="">
-                                <img class="sp" src="./assets/images/image_09_sp.png" alt="">
+                                <img class="pc" src="<?php echo get_template_directory_uri()?>/assets/images/image_09.png" alt="">
+                                <img class="sp" src="<?php echo get_template_directory_uri()?>/assets/images/image_09_sp.png" alt="">
                             </div>
                             <button class="btn__inner mt-3">DOOR 引越し見積り　公式サイト</button>
                         </div>
@@ -295,14 +278,5 @@
 
 
         </section>
-
     </main>
-
-    <footer>
-
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-
-</html>
+<?php get_footer(); ?>
